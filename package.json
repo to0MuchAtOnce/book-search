@@ -1,0 +1,19 @@
+{
+  "name": "book-search",
+  "version": "1.0.0",
+  "description": "Book search using REST api written in node, express and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

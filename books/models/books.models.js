@@ -21,7 +21,7 @@ export const editItem = (id, data) => {
   try {
     const index = db.books.findIndex((book) => book.id === id);
 
-    if (index === -1) throw new Error('book not found');
+    if (index === -1) throw new Error('Book not found');
     else {
       db.books[index] = data;
       return db.books[index];

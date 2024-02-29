@@ -7,7 +7,7 @@ import {
   deleteItem,
 } from '../models/books.models.js';
 
-export const getbooks = (req, res) => {
+export const getBook = (req, res) => {
   try {
     const resp = getItem(parseInt(req.params.id));
     res.status(200).json(resp);
